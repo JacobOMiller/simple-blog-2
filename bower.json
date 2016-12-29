@@ -1,0 +1,21 @@
+{
+  "name": "simple-blog-2",
+  "description": "simple blog app",
+  "main": "index.js",
+  "authors": [
+    "JacobOMiller <jacob.ohara.miller@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8"
+  }
+}

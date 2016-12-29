@@ -1,0 +1,12 @@
+{
+  "name": "simple-blog-2",
+  "version": "1.0.0",
+  "description": "simple blog app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node_modules/.bin/json-server db.json --static public/"
+  },
+  "author": "",
+  "license": "ISC"
+}
