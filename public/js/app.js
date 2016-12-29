@@ -20,7 +20,24 @@ app.config([
         })
         .state('blogPage',{
             url:'/blog',
-            template: '<h2>blog</h2>'
+            templateUrl:'/templates/blog/list.html',
+            controller:'Posts.postController'
+        })
+        .state('posts-create',{
+            url:'/blog/create',
+            templateUrl:'/templates/blog/edit.html',
+            controller:'Posts.postController'
+        })
+        .state('posts-view',{
+            url:'/blog/:id',
+            templateUrl:'/templates/blog/postView.html',
+            controller:'Posts.postController'
+        })
+        .state('posts-update',{
+            url:'/blog/:id/update',
+            templateUrl:'/templates/blog/edit.html',
+            controller:'Posts.postController'
         });
+
     }
 ])
